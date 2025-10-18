@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9b498962549e7cd4ea10fdc4231f575d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - startingWeapon: {instanceID: 0}
+  - playerFollowCamera: {instanceID: 0}
+  - weaponCamera: {instanceID: 0}
+  - zoomVignette: {instanceID: 0}
+  - ammoText: {instanceID: 0}
+  - meleeWeaponSO: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
