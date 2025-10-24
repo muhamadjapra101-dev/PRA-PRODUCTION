@@ -6,7 +6,7 @@ NavMeshProjectSettings:
   serializedVersion: 2
   areas:
   - name: Walkable
-    cost: 1
+    cost: 2
   - name: Not Walkable
     cost: 1
   - name: Jump
@@ -73,12 +73,12 @@ NavMeshProjectSettings:
   m_Settings:
   - serializedVersion: 3
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 1
-    agentSlope: 45
-    agentClimb: 1
-    ledgeDropHeight: 5
-    maxJumpAcrossDistance: 5
+    agentRadius: 8.28
+    agentHeight: 9.52
+    agentSlope: 18.8
+    agentClimb: 1.39
+    ledgeDropHeight: 4.2
+    maxJumpAcrossDistance: 4.57
     minRegionArea: 2
     manualCellSize: 0
     cellSize: 0.16666667
