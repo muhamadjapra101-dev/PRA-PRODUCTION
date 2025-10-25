@@ -2,24 +2,24 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "WeaponSO", menuName = "Scriptable Objects/WeaponSO")]
 public class WeaponSO : ScriptableObject
-{
+{public string WeaponName;
     public GameObject weaponPrefab;
-    public int Damage = 1;
-    public float FireRate = .5f;
     public GameObject HitVFXPrefab;
+    public int Damage = 25;
 
-    [Header("Gun Settings")]
-    public bool isAutomatic = false;
+    [Header("Firing")]
+    public float FireRate = 0.12f;
+    public int MagazineSize = 30;
+    public bool isAutomatic = true;
+
+    [Header("Zoom")]
     public bool CanZoom = false;
-    public float ZoomAmount = 10f;
-    public float ZoomRotationSpeed = .3f;
-    public int MagazineSize = 12;
+    public float ZoomAmount = 40f;
+    public float ZoomRotationSpeed = 4f;
 
-
-    [Header("Melee Settings")]
-    public bool isMelee = false;   // kalau true berarti melee weapon
-    public float meleeRange = 2f;  // jarak depan player
-    public float meleeRadius = 1f; // radius hitbox
-
-
+    [Header("Reload")]
+    public float ReloadTime = 1.5f;           // durasi reload untuk weapon ini
+    public string ReloadAnimationName = "Reload"; // nama animasi reload di Animator (kosong = no anim)
+    public int StartingReserveAmmo = 90;    
+   
 }

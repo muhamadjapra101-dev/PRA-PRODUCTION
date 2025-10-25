@@ -74,7 +74,7 @@
                     "id": "f61432a9-1aec-4226-9768-8c42658d5710",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 },
                 {
@@ -322,7 +322,7 @@
                 {
                     "name": "",
                     "id": "b82baf54-151e-4465-abbb-04c3631ad405",
-                    "path": "",
+                    "path": "<Keyboard>/v",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
